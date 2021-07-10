@@ -7,7 +7,7 @@ const Task = (props) => {
         <View style={styles.item}>
             <View style={styles.itemLeft}>
                 <View style={styles.square}></View>
-                <Text style={styles.itemText}>{props.text}</Text>
+                <Text style={styles.itemText} >{props.text.toUpperCase()}</Text>
             </View>
             <View style={styles.circular}></View>
         </View>
@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     itemText:   {
         color:'#fff',
         maxWidth: '80%',
+        fontWeight:"600",
     },
     circular:   {
         width: 12,
