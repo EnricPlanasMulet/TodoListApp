@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     square: {
         width: 24,
         height: 24,
-        backgroundColor: '#55BCF6',
+        backgroundColor: '#6666ff',
         opacity: 0.4,
         borderRadius: 5,
         marginRight: 15,
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     citcular:   {
         width: 12,
         height: 12,
-        borderColor: '#55BCF6',
+        borderColor: '#6666ff',
         borderWidth: 2,
         borderRadius: 5,
     },
