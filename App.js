@@ -15,23 +15,9 @@ export default function App() {
   }
   return (
     <View style={styles.container}>
-      <KeyboardAvoidingView
-        behavior={Platform.OS === "ios"?"padding":"height"}
-        style={styles.writeTaskWrapper}>
-          <TextInput style={styles.input} placeholder={'Write a task'} placeholderTextColor="#fff" value={task} onChangeText={text => setTask(text)}/>
-
-          <TouchableOpacity onPress={() => handleAddTask()}>
-            <View style={styles.addWrapper}>
-                <Text style={styles.addText}>+</Text>
-            </View>
-          </TouchableOpacity>
-        </KeyboardAvoidingView>
       {/*Today's tasks*/}
-      
       <View style={styles.tasksWrapper}>
         <Text style={styles.sectionTitle}>Today's tasks</Text>
-        {/*Write a task*/}
-      
         <View style={styles.items}>
           {/*This is where the tasks will go!*/}
           {
@@ -44,7 +30,18 @@ export default function App() {
       </View>
 
 
-      
+      {/*Write a task*/}
+      <KeyboardAvoidingView
+        behavior={Platform.OS === "ios"?"padding":"height"}
+        style={styles.writeTaskWrapper}>
+          <TextInput style={styles.input} placeholder={'Write a task'} placeholderTextColor="#fff" value={task} onChangeText={text => setTask(text)}/>
+
+          <TouchableOpacity onPress={() => handleAddTask()}>
+            <View style={styles.addWrapper}>
+                <Text style={styles.addText}>+</Text>
+            </View>
+          </TouchableOpacity>
+        </KeyboardAvoidingView>
     </View>
   );
 }
@@ -55,7 +52,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#000000ff',
   },
   tasksWrapper: {
-    paddingTop: 50,
+    paddingTop: 80,
     paddingHorizontal: 20
   },
   sectionTitle: {
@@ -67,7 +64,8 @@ const styles = StyleSheet.create({
     marginTop: 30,
   },
   writeTaskWrapper: {
-    top:40,
+    position: 'absolute',
+    bottom: 60,
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-around',
@@ -78,7 +76,7 @@ const styles = StyleSheet.create({
     paddingVertical:15,
     paddingHorizontal: 15,
     backgroundColor: '#2e2e2eff',
-    borderRadius: 30,
+    borderRadius: 60,
     borderColor: '#C0C0C0',
     color:'#fff',
     width: 275,
@@ -94,6 +92,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom:10,
     marginTop:10,
+
+    
+    
   },
   addText: {
     color: '#fff',
