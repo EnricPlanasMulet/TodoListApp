@@ -1,6 +1,7 @@
 # ToDoList App
 
-This is an ToDo List app made with react native.
+This is an ToDo List app made with react native.![IMG_1674](https://user-images.githubusercontent.com/82574299/125207799-b1229880-e28e-11eb-970e-2d9a3e636709.PNG)
+
 
 ## Installation
 
