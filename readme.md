@@ -1,20 +1,19 @@
-# Foobar
+# ToDoList App
 
-Foobar is a Python library for dealing with word pluralization.
+This is an ToDo List app made with react native.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Install [Expo CLI](https://pip.pypa.io/en/stable/) and [VSCode Editor](https://code.visualstudio.com/download) if you want to try it yourself.
 
 ```bash
-pip install foobar
+# execute this commmand on the VSCode terminal inside the project folder
+npm install --global expo-cli
 ```
 
 ## Usage
 
-```python
-import foobar
-
+```bash
 # returns 'words'
 foobar.pluralize('word')
 
