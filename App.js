@@ -30,20 +30,7 @@ export default function App() {
       {/*Today's tasks*/}
       <View style={styles.tasksWrapper}>
         <Text style={styles.sectionTitle}>Today's tasks</Text>
-        <View style={styles.items}>
-          {/*This is where the tasks will go!*/}
-          {
-            taskItems.map((task, index) => {
-              return (<TouchableOpacity key={index} onPress={() =>completeTask(index)}>
-                  <Task text={task}/>
-              </TouchableOpacity>)
-            })
-          }
-        </View>
-      </View>
-
-
-      {/*Write a task*/}
+         {/*Write a task*/}
       <KeyboardAvoidingView
         behavior={Platform.OS === "ios"?"padding":"height"}
         style={styles.writeTaskWrapper}>
@@ -55,6 +42,17 @@ export default function App() {
             </View>
           </TouchableOpacity>
         </KeyboardAvoidingView>
+        <View style={styles.items}>
+          {/*This is where the tasks will go!*/}
+          {
+            taskItems.map((task, index) => {
+              return (<TouchableOpacity key={index} onPress={() =>completeTask(index)}>
+                  <Task text={task}/>
+              </TouchableOpacity>)
+            })
+          }
+        </View>
+      </View>
     </View>
   );
 }
@@ -65,7 +63,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#000000ff',
   },
   tasksWrapper: {
-    paddingTop: 60,
+    paddingTop: 40,
     paddingHorizontal: 20
   },
   sectionTitle: {
@@ -74,11 +72,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   },
   items: {
-    marginTop: 30,
+    marginTop: 10,
   },
   writeTaskWrapper: {
-    position: 'absolute',
-    bottom: 30,
+    marginTop: 10,
+    position: 'relative',
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-around',
@@ -95,6 +93,7 @@ const styles = StyleSheet.create({
     width: 275,
     borderWidth: 2,
     borderColor: '#000000ff',
+    marginRight:30,
   },
   addWrapper: {
     width: 80,
@@ -105,6 +104,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom:10,
     marginTop:10,
+    marginRight:5,
 
   },
   addText: {
