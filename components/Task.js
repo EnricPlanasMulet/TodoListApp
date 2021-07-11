@@ -30,19 +30,22 @@ const styles = StyleSheet.create({
         flexWrap: 'wrap',
     },
     square: {
-        width: 24,
-        height: 24,
-        backgroundColor: '#0d4ae3ff',
-       
+        width: 12,
+        height: 12,
+        borderColor: '#fff',
+        borderWidth: 2,
         borderRadius: 5,
+        backgroundColor: '#FFF',
+        opacity: 0.2,
         marginRight: 15,
     },
     itemText:   {
         color:'#fff',
-        maxWidth: '80%',
+        maxWidth: '87%',
         fontWeight:"600",
     },
     circular:   {
+
         width: 12,
         height: 12,
         borderColor: '#fff',
