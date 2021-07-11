@@ -6,8 +6,7 @@ This is an ToDo List app made with [React Native](https://reactnative.dev/docs/e
 
 
 ## Installation
-
-Install [Expo CLI](https://pip.pypa.io/en/stable/) and [VSCode Editor](https://code.visualstudio.com/download) if you want to try it yourself.
+Download the code from github. Then you'll need to install [Expo CLI](https://pip.pypa.io/en/stable/) and [VSCode Editor](https://code.visualstudio.com/download) if you want to try it yourself.
 
 ```bash
 # execute this commmand on the VSCode terminal inside the project folder
