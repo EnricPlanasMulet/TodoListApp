@@ -2,7 +2,8 @@
 
 This is an ToDo List app made with [React Native](https://reactnative.dev/docs/environment-setup).
 
-![image860](https://user-images.githubusercontent.com/82574299/125207824-f8a92480-e28e-11eb-8012-43bd3466a174.png)![rect1523](https://user-images.githubusercontent.com/82574299/125335329-b9d9a400-e34c-11eb-8931-634481b86f4e.png)
+![image860](https://user-images.githubusercontent.com/82574299/125207824-f8a92480-e28e-11eb-8012-43bd3466a174.png)![rect1523](https://user-images.githubusercontent.com/82574299/125335628-0d4bf200-e34d-11eb-9c52-170661e22f60.png)
+
 
 
 
