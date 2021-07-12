@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "backgroundColor": "#000000ff",
+      "backgroundColor": "#0D4AE3FF",
       "image": "./assets/splash.png",
       "resizeMode": "contain"
       
@@ -26,7 +26,7 @@
       "package": "com.muletdev.todolist",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0d4ae3ff"
+        "backgroundColor": "#0D4AE3FF"
       }
     },
     "web": {
