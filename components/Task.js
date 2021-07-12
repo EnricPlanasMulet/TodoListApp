@@ -3,19 +3,19 @@ import { StyleSheet, Text, Touchable, TouchableOpacity, View } from 'react-nativ
 
 const Task = (props) => {
 
-    return(
+    return (
         <View style={styles.item}>
             <View style={styles.itemLeft}>
-                <View style={styles.square}></View>
+                <View style={styles.square}/>
                 <Text style={styles.itemText} >{props.text.toUpperCase()}</Text>
             </View>
-            <View style={styles.circular}></View>
+            <View style={styles.circular}/>
         </View>
     )
 }
 
 const styles = StyleSheet.create({
-    item:   {
+    item: {
         backgroundColor: '#2e2e2eff',
         padding: 15,
         borderRadius: 10,
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         marginBottom: 15,
     },
-    itemLeft:   {
+    itemLeft: {
         flexDirection: 'row',
         alignItems: 'center',
         flexWrap: 'wrap',
@@ -39,12 +39,12 @@ const styles = StyleSheet.create({
         opacity: 0.2,
         marginRight: 15,
     },
-    itemText:   {
-        color:'#fff',
+    itemText: {
+        color: '#fff',
         maxWidth: '87%',
-        fontWeight:"600",
+        fontWeight: "600",
     },
-    circular:   {
+    circular: {
 
         width: 12,
         height: 12,
