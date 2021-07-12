@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#0044f0ff"
+      "backgroundColor": "#0d4ae3ff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -25,7 +25,7 @@
       "package": "com.muletdev.todolist",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0044f0ff"
+        "backgroundColor": "#0d4ae3ff"
       }
     },
     "web": {
