@@ -1,5 +1,6 @@
 # ToDoList App
-![splashTodoListRounded](https://user-images.githubusercontent.com/82574299/125550014-74135f4f-4e39-4d52-a7d5-b33c34a7a21d.png)
+![splashTodoListRounded](https://user-images.githubusercontent.com/82574299/125647184-aca7c3fc-6d36-434e-800c-b6d93a954c7e.png)
+
 
 
 ### This is a ToDo List app made with [React Native](https://reactnative.dev/docs/environment-setup).
