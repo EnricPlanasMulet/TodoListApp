@@ -2,7 +2,7 @@
 ![splashTodoListRounded](https://user-images.githubusercontent.com/82574299/125550014-74135f4f-4e39-4d52-a7d5-b33c34a7a21d.png)
 
 
-This is a ToDo List app made with [React Native](https://reactnative.dev/docs/environment-setup).
+### This is a ToDo List app made with [React Native](https://reactnative.dev/docs/environment-setup).
 
 ![rect1523](https://user-images.githubusercontent.com/82574299/125335628-0d4bf200-e34d-11eb-9c52-170661e22f60.png)![image860](https://user-images.githubusercontent.com/82574299/125207824-f8a92480-e28e-11eb-8012-43bd3466a174.png)
 
